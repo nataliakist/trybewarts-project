@@ -6,9 +6,25 @@
 
 .header {
   display: flex;
-  height: 300px;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
 }
 
+.trybewarts-header-logo {
+  width: 60px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10px;
+}
+
+form input {
+  margin-right: 5px;
+}
