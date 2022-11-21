@@ -20,21 +20,31 @@
     </form>
   </header>
   <main>
-    <form action="" method="get" id="evaluation-form"></form>
+    <form id="evaluation-form">
+      <div class="input-container">
+        <label for="input-name">Nome: <input name="input-name" id="input-name" placeholder="Nome"></label>
+        <label for="input-lastname">Sobrenome: <input name="input-lastname" id="input-lastname" placeholder="Sobrenome"></label>
+      </div>
+      <div class="house-container">
+        <label for="input-email">E-mail: <input name="input-email" id="input-email" placeholder="Email"></label>
+        <label for="house">Selecione a sua casa:<select name="house" id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select></label>
+      </div>
+      <div class="family-container">
+        <label for="" id="label-family">Qual sua família?</label><br>
+        <label for="frontend"><input type="radio" name="family" id="frontend" value="Frontend"> Frontend</label> 
+        <br>
+        <label for="backend"><input type="radio" name="family" id="backend" value="Backend"> Backend</label>
+        <br>
+        <label for="fullstack"><input type="radio" name="family" id="fullstack" value="FullStack"> FullStack</label>
+      </div>
+    </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
   </main>
-  <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" align="right">
-  <form>
-    <input id="input-name" placeholder="Nome">
-    <input id="input-lastname" placeholder="Sobrenome">
-    <input id="input-email" placeholder="Email">
-  </form>
-  <select id="house">
-    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-    <option id="corvinode-house" value="Corvinode">Corvinode</option>
-    <option id="pytherina-house" value="Pytherina">Pytherina</option>
-  </select>
-
   <script src="script.js"></script>
 </body>
 
