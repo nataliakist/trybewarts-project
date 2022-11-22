@@ -69,11 +69,17 @@
         <textarea id="textarea" maxlength="500" cols="50" rows="10"></textarea>
       </div>
       <div class="agreement-container">
-        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima? <input type="checkbox" name="" id="agreement"></label>
+        <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
+        <input class="abriu" type="checkbox" name="agreement" id="agreement" required>
+      </div>
+      <div>
+        <button class="fechou" id="submit-btn" disabled type="submit">Enviar</button>
       </div>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
   </main>
+  
+ 
   <script src="script.js"></script>
 </body>
 
