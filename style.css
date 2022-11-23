@@ -50,3 +50,12 @@ main {
   display: flex;
 }
 
+footer {
+  display: flex;
+  height: 67px;
+  border: 2px solid red;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 12px;
+}
+
