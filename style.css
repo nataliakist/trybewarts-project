@@ -48,6 +48,39 @@ main {
 
 .input-container {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#input-name {
+  width: 320px;
+  height: 35px;
+}
+
+#input-lastname {
+  width: 320px; 
+  height: 35px;
+}
+
+.house-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#input-email {
+  width: 320px; 
+  height: 35px;
+}
+
+#house {
+  width: 320px; 
+  height: 35px;
+}
+
+#textarea {
+  resize: none;
+  width: 100%;
 }
 
 footer {
