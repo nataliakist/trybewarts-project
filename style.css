@@ -83,6 +83,16 @@ main {
   width: 100%;
 }
 
+#counter {
+  position: relative;
+  bottom: 25px;
+  left: 94%;
+}
+
+#form-data{
+  display: none;
+}
+
 footer {
   display: flex;
   height: 67px;
