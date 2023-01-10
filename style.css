@@ -19,6 +19,16 @@
   color: white;
 }
 
+body {
+  background-image: url('images/hogwarts4.jpg');
+  background-position: center;
+  background-size: 110%;
+}
+
+body input {
+  opacity: 0.8;
+}
+
 header form {
   display: flex;
   justify-content: space-evenly;
@@ -37,16 +47,6 @@ header form input {
 #password {
   width: 200px;
   height: 35px;
-}
-
-body {
-  background-image: url('images/hogwarts4.jpg');
-  background-position: center;
-  background-size: 110%;
-}
-
-body input {
-  opacity: 0.8;
 }
 
 main {
